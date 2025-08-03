@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Explorador de Pokémon</title>
+    <link rel="stylesheet" href="./css/styles.css" />
+  </head>
+  <body>
+    <div class="contenedor">
+      <h1>Explorador de Pokémon</h1>
+
+      <input type="text" id="busqueda" placeholder="Ingresa nombre o ID" />
+      <button id="buscar">Buscar</button>
+
+      <div id="resultado" class="resultado">
+        <p id="mensaje">Busca un Pokémon para comenzar</p>
+        <img id="imagen-pokemon" src="" alt="" style="display: none" />
+        <h2 id="nombre"></h2>
+        <p id="tipos"></p>
+      </div>
+    </div>
+
+    <script src="./js/main.js"></script>
+  </body>
+</html>
