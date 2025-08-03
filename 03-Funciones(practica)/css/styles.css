@@ -1,0 +1,45 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  margin-top: 100px;
+  background-color: #f0f0f0;
+}
+
+h1 {
+  color: #333;
+  margin-bottom: 40px;
+}
+
+#contador {
+  font-size: 48px;
+  font-weight: bold;
+  margin: 20px 0;
+  color: #007acc;
+}
+
+button {
+  font-size: 18px;
+  padding: 10px 20px;
+  margin: 10px;
+  cursor: pointer;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  transition: background-color 0.3s ease;
+}
+
+#btnIncrementar {
+  background-color: #007acc;
+}
+
+#btnIncrementar:hover {
+  background-color: #005a99;
+}
+
+#btnResetear {
+  background-color: #6c757d;
+}
+
+#btnResetear:hover {
+  background-color: #5a6268;
+}
